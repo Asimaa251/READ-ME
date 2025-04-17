@@ -75,10 +75,10 @@ const createMemePage = (quote, emoji) => `
     <div class="quote">"${quote}"</div>
     <div class="emoji">${emoji}</div>
   </div>
-     <h1>NURUL ASIMARRAHMAH</h1>
-      <h2>SMKN 2 WAJO</h2>
+     <h1>Nurul Asimarrahmah</h1>
+     <h2>SMKN 2 WAJO</h2>
     </div>
-</div>
+  </div>
   <button onclick="window.location.reload()">Meme Baru!</button>
 </body>
 </html>
@@ -95,10 +95,3 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Aplikasi meme absurd berjalan di http://localhost:${port}`);
 });
-
-Jalankan aplikasi dengan: node app.jsBuka browser dan akses http://localhost:3000
-
-
-
-Aplikasi ini sangat ringan (tanpa backend database) tapi tetap interaktif dan menyenangkan 
-
